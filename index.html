@@ -11,10 +11,82 @@
   </header>
   <main>
     <h2>Add Employee</h2>
+
+  <body>
+
+    <div class="content">
+
+    <form>
+      <div class="input-row">
+      <input type="text" data-testid="firstNameInput" id="first-name" type="text" placeholder="First Name"/>
+      <input type="text" data-testid="lastNameInput" id="last-name" type="text" placeholder="Last Name"/>
+      <input type="number" data-testid="idInput" id="id-input" type="number" placeholder="ID"/>
+      <input type="text" data-testid="titleInput" id="title-input" type="text" placeholder="Title"/>
+      <input type="number" data-testid="annualSalaryInput" id="annual-salary" type="number" placeholder="Annual Salary"/>
+      <button data-testid="submitButton">Submit</button>
+    </form>
+
+<br>
+<br>
+
+
     <h2>Employees</h2>
+
+    <br>
+    
+    <table>
+      <!-- Table heading displays the descriptions -->
+      <thead>
+          <tr>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>ID</th>
+              <th>Title</th>
+              <th>Annual Salary</th>
+              <th></th>
+
+          </tr>
+      </thead>
+
+      <tbody id="temperatureData">
+        <tr>
+            <td>Johnny</td>
+            <td>De Luna</td>
+            <td>4125</td>
+            <td>App Analyst</td>
+            <td>$79,500</td>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>Dutton</td>
+            <td>5364</td>
+            <td>CEO</td>
+            <td>$10,786,987</td>
+            <td></td>
+        </tr>
+        <tr>
+          <td>Rip</td>
+          <td>Wheeler</td>
+          <td>4354</td>
+          <td>Lead Cowboy</td>
+          <td>$500,987</td>
+          <td></td>
+      </tr>
+        
+        <!-- innerHTML -->
+    </tbody>
+    </table>
+    <br>
+    <div>
+    <p>Total Monthly</p>
+    <h3><span id="total-monthly">11367474</span></h3>
+    </div>
+<br>
+
   </main>
   <footer>
-    <p>Total Monthly</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
